@@ -4,11 +4,16 @@ package hw;
  * Date: 2016/09/19
  * Author: 103021043 何宙運
  */
+import java.util.Scanner;
 public class hw04_103021043 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		System.out.print("intput a:");
+		double a=scn.nextDouble();
+		System.out.print("要輸入的次方:");
+		double b=scn.nextDouble();
+		double c=Math.pow(a,1/b);
+		System.out.println(c);	
 	}
-
 }

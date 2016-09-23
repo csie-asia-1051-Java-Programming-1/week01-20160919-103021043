@@ -4,11 +4,17 @@ package hw;
  * Date: 2016/09/19
  * Author: 103021043 何宙運
  */
+import java.util.Random;
+import java.util.Scanner;
 public class hw02_103021043 {
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		Random ran = new Random();
+		System.out.print("please input A:");
+		int a =scn.nextInt();
+		for(int i=0;i<6;i++){
+			int b=ran.nextInt(a)+1;
+			System.out.print(b+" ");
+		}
 	}
-
 }

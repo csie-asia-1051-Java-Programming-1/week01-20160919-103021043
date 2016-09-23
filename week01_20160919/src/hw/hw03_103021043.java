@@ -4,11 +4,25 @@ package hw;
  * Date: 2016/09/19
  * Author: 103021043 何宙運
  */
+import java.util.Scanner;
 public class hw03_103021043 {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn=new Scanner(System.in);
+		System.out.print("請輸入6個數:");
+		double a1=scn.nextDouble();
+		double a2=scn.nextDouble();
+		double a3=scn.nextDouble();
+		double a4=scn.nextDouble();
+		double a5=scn.nextDouble();
+		double a6=scn.nextDouble();
+		double b=Math.min(a1,a2);
+		double c=Math.min(a3,a4);
+		double d=Math.min(a5,a6);
+		double e=Math.min(b,c);
+		double f=Math.min(d,e);
+		System.out.println(f);
+		
 	}
 
 }
